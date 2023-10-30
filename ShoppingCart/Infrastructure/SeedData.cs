@@ -77,7 +77,7 @@ namespace ShoppingCart.Infrastructure
                         Description = "Grey shirt",
                         Price = 12.99M,
                         Category = shirts,
-                        Image = "gray shirt.jpg"
+                        Image = "grey shirt.jpg"
                     },
                     new Product
                     {
