@@ -26,7 +26,7 @@ namespace ShoppingCart.Models
         public long CategoryId { get; set; }
 
         public Category Category { get; set; }
-        public string Image { get; set; }
+        public string Image { get; set; } = "noimage.png";
 
         [NotMapped]
         [FileExtension]
