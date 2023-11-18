@@ -11,9 +11,9 @@ namespace ShoppingCart.Infrastructure.Validation
                 var extension = Path.GetExtension(file.FileName);
 
                 string[] extensions = { "jpg", "png" };
-                bool result = extension.Any(x => extension.EndsWith(x));
+                bool result = extensions.Any(x => extension.EndsWith(x));
 
-                if(result)
+                if(!result)
                 {
                     return new ValidationResult("Allowed extensions are jpg and png");
                 }

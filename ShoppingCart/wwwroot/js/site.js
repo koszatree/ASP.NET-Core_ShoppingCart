@@ -6,11 +6,12 @@
         });
     }
 
-    if ($("div.alert.notification").length{
+    if ($("div.alert.notification").length) {
         setTimeout(() => {
             $("div.alert.notification").fadeOut();
         }, 2000);
     }
+
 });
 
 function readURL(input) {
