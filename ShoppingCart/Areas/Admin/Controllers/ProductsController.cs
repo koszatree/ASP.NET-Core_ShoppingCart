@@ -8,6 +8,7 @@ using ShoppingCart.Models;
 namespace ShoppingCart.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class ProductsController : Controller
     {
         private readonly DataContext _context;
